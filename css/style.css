@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    height: 1px;
+    min-height: 100%;
+    background-image: url(img/9a6affe88d21f5ce7ae5b4331c721005.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    background: linear-gradient(180deg, #fff 50%, rgba(255, 255, 255, 0) 100%);
+    width: 95%;
+    height: 95%;
+    border-radius: 35px;
+    background: url(img/1612867432_90-p-krasivii-novogodnii-fon-krasnii-123.jpg);
+}
+
+.content_txt {
+    height: 90%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-block {
+    width: 100%;
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    padding: 15px 45px;
+    border-radius: 8px;
+    background-color: #12c212bd;
+    color: #fff;
+    font-size: 22px;
+    transition: 1ms;
+}
+
+.btn:active
+{
+    box-shadow: 0px 0px 5px 3px #6e6e6e9f;
+}
